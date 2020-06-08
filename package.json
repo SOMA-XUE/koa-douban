@@ -1,24 +1,19 @@
 {
-  "name": "koa-douban",
+  "name": "koa2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SOMA-XUE/koa-douban.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SOMA-XUE/koa-douban/issues"
-  },
-  "homepage": "https://github.com/SOMA-XUE/koa-douban#readme",
   "dependencies": {
-    "koa": "^2.11.0"
+    "bufferutil": "^4.0.1",
+    "koa": "^2.11.0",
+    "puppeteer": "^3.1.0",
+    "utf-8-validate": "^5.0.2"
   }
 }
